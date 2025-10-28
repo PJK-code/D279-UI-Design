@@ -1,0 +1,59 @@
+html, body { height:100%; margin:0; }
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  background: #003B6D;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main { flex: 1; }
+
+.brand-logo { height: 40px; }
+
+.bg-custom { background: #BDBDBD; }
+
+.test-box { background: #fff; padding: 18px; border-radius: 8px; }
+
+
+.ppp-logo { height: 108px; width: auto; }
+@media (max-width: 576px) { .ppp-logo { height: 64px; } }
+
+
+.species-image { width: 100%; height: 360px; object-fit: cover; display: block; }
+@media (max-width: 767px) { .species-image { height: 200px; } }
+
+.image-column-wrapper { padding-top: 3rem; }
+@media (min-width: 768px) { .image-column-wrapper { padding-top: 5rem; } }
+
+
+.site-card { width: 98%; max-width: 1400px; margin-left: auto; margin-right: auto; }
+
+.page-card { background: #6699CC; color: #fff; border: none; border-radius: 8px; }
+.page-card .card-body { padding: 1.5rem; }
+
+
+.faq-card { max-width: 1100px; padding-top: 1rem; padding-bottom: 1rem; }
+.faq-card .card-body { padding: 2.5rem; }
+
+
+.navbar .navbar-brand, footer .navbar-brand { color: #003B6D !important; }
+.navbar .nav-link, footer .nav .nav-link { color: #003B6D !important; }
+
+footer { border-top: 1px solid rgba(0,0,0,0.08); }
+
+/* Hero section full height */
+.hero-section { min-height: calc(100vh - 80px); padding-top: 0; }
+
+/* Logo container in hero */
+.logo-container { max-width: 500px; }
+
+/* Hero logo sizing */
+.hero-logo { max-height: 400px; object-fit: cover; }
+
+/* Consultation images */
+.consultation-image { height: 255px; object-fit: cover; }
+
+/* Adoption section images */
+.adoption-image { height: 240px; object-fit: cover; }
