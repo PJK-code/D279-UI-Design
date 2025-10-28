@@ -1,6 +1,8 @@
 # D279-UI-Design
 Prototype website created for User Interface Design(D279) at Western Governors University. 
 
+This Project focuses on the redesign of the fictious website's design interface. I'll include a link of the old website design interface just for reference.
+
 The requirements for the project were:
 
 C.  Create an interactive desktop prototype based on the audience and stakeholder needs using the attached “Paradigm Pet Professional UI Design Specifications” by doing the following:
